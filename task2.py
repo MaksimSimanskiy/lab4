@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 a = int(input('Enter first side '))
 b = int(input('Enter second side  '))
 c = int(input('Enter third side  '))

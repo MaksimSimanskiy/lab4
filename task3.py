@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 k = int(input("Введите число: "))
 a = 0
 for i in range(2, a // 2):

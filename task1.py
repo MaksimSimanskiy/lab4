@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 m = int(input('Введите число от 1 до 4 '))
 if m == 4:
     print('Сентябрь,Октябрь,Ноябрь')
