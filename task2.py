@@ -1,13 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-a = int(input('Enter first side '))
-b = int(input('Enter second side  '))
-c = int(input('Enter third side  '))
-if a + b <= c or a + c <= b or b + c <= a:
-    print("Треугольник не существет")
-elif a != b and a != c and b != c:
-    print("Разносторонний")
-elif a == b == c:
-    print("Равносторонний")
+print('Решаем уравнение a•x²+b•x+c=0')
+a = float(input('Введите значение a: '))
+b = float(input('Введите значение b: '))
+c = float(input('Введите значение c: '))
+
+d = b ** 2 - 4 * a * c
+print('Дискриминант = ' + str(d))
+if d == 0:
+    x = -b / (2 * a)
+    print('x = ' + str(x))
+
 else:
-    print("Равнобедренный")
+    x1 = (-b + d ** 0.5) / (2 * a)
+    x2 = (-b - d ** 0.5) / (2 * a)
+    print('x₁ = ' + str(x1))
+    print('x₂ = ' + str(x2))
