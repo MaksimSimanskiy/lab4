@@ -8,4 +8,4 @@ if(n < 1 or n > 4):
 a = math.pow(10, n - 1)
 b = math.pow(10, n) - 1
 s = (b * (b + 1) - a * (a - 1)) / 2
-print("Результат = ",s)
+print('Результат = {}'.format(s))

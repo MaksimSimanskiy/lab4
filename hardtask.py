@@ -16,8 +16,8 @@ a = x
 S, n = a, 1
 # Найти сумму членов ряда.
 while math.fabs(a) > EPS:
-    a *= 2 * n * x / pow((2 * n + 1), 2)
+    a *= 2 * n * pow(x,2) / (pow((2 * n + 2), 2)*(2 * n + 1))
     S += a
     n += 1
     # Вывести значение функции.
-    print(f"Ei({x}) = {EULER + math.log(math.fabs(x)) + S}")
+    print(f"Chi({x}) = {EULER + math.log(math.fabs(x)) + S}")

@@ -6,13 +6,13 @@ b = float(input('Введите значение b: '))
 c = float(input('Введите значение c: '))
 
 d = b ** 2 - 4 * a * c
-print('Дискриминант = ' + str(d))
+print('Дискриминант = {}'.format(d))
 if d == 0:
     x = -b / (2 * a)
-    print('x = ' + str(x))
+    print('x = {}'.format(x))
 
 else:
     x1 = (-b + d ** 0.5) / (2 * a)
     x2 = (-b - d ** 0.5) / (2 * a)
-    print('x₁ = ' + str(x1))
-    print('x₂ = ' + str(x2))
+    print('x₁ = {}'.format(x1))
+    print('x₂ = {}'.format(x2))
